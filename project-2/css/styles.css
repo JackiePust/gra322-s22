@@ -1,0 +1,75 @@
+html {
+    --gray: #444;
+    --gray-dark: #333;
+    --gray-light: #f2f2f2;
+}
+
+body {
+    font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+h2 { 
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+p { 
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] (1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+header {
+    background-color: var(--gray-dark)
+    padding: 1rem 0
+}
+
+.overview {
+    background-color: var(--gray);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+figure {
+    margin-top: 2rem;
+}
+
+figure img {
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    font-size: 13px
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 800px) {
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr, 1fr;
+
+    }
+}
