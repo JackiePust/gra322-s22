@@ -33,7 +33,7 @@ p {
 
 .grid {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] (1rem, 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
 }
 
 .grid > * {
@@ -41,8 +41,8 @@ p {
 }
 
 header {
-    background-color: var(--gray-dark)
-    padding: 1rem 0
+    background-color: var(--gray-dark);
+    padding: 1rem 0;
 }
 
 .overview {
@@ -82,7 +82,7 @@ footer p {
     .two-column {
         display: grid;
         grid-gap: 3rem;
-        grid-template-columns: 1fr, 1fr;
+        grid-template-columns: 1fr 1fr;
 
     }
 }
