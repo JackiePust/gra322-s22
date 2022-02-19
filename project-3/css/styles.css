@@ -1,0 +1,9 @@
+html {
+    --orange: #F07300;
+    --cream: #FFF8EB;
+    --black: #000000; 
+}
+
+body {
+    background-color: var(--cream);
+}
