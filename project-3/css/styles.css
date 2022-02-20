@@ -7,3 +7,9 @@ html {
 body {
     background-color: var(--cream);
 }
+
+table {
+    background-color: white;
+    outline-color: var(--orange);
+    outline-width: 5px;
+}
