@@ -11,5 +11,8 @@ body {
 table {
     background-color: white;
     border: 3px solid var(--orange);
+    font-family: 'Crete Round', serif;
+    font-family: 'Heebo', sans-serif;
     width: 30%;
 }
+
