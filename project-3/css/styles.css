@@ -10,6 +10,6 @@ body {
 
 table {
     background-color: white;
-    outline-color: var(--orange);
-    outline-width: 5px;
+    border: 1px var(--orange);
+    width: 30%;
 }
