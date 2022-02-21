@@ -3,11 +3,22 @@ body {
     background-color: var(--cream);
 }
 
+.box {
+    align-items: center;
+    background-color: var(--orange);
+    display: flex;
+    font: 40px 'Heebo', sans-serif;
+    height: 100px;
+    justify-content: center;
+    margin: 0;
+    padding: 4px 6px;
+    width: 100%;
+  }
 
 html {
-    --orange: #F07300;
-    --cream: #FFF8EB;
     --black: #000000; 
+    --cream: #FFF8EB;
+    --orange: #F07300;
 }
 
 h1 {
@@ -30,5 +41,4 @@ table {
     height: 110px;
     margin: 0;
     padding: 10px;
-    border: 6px solid var(--orange);
   }
