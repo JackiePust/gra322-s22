@@ -3,12 +3,6 @@ body {
     background-color: var(--cream);
 }
 
-#colorstrip{
-    width: 100%; height: 2px;
-    border-style: solid;
-    border-color:var(--orange);
-    background-color:var(--orange);
-}
 
 html {
     --orange: #F07300;
