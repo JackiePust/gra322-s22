@@ -48,8 +48,14 @@ p {
 .schedule {
     background-color:white;
     border: 0px;
+    color: var(--black);
+    font-weight: 300;
+    font-size: 20px;
+    font-family:'Heebo', sans-serif;
+    letter-spacing: 1px;
     height: 400px;
     padding: 0px 50px 0px 50px;
+    text-align: left;
 }
 
 .story {
