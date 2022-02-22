@@ -3,6 +3,11 @@ body {
     background-color: var(--cream);
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
 html {
     --black: #000000; 
     --cream: #FFF8EB;
