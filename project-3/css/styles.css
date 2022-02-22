@@ -58,6 +58,7 @@ table {
 }
 
 th {
+    background-color: #F07300;
     font-weight: 300;
     font-size: 20px;
     font-family:'Heebo', sans-serif;
@@ -65,7 +66,4 @@ th {
     padding-bottom: 10px;
 }
 
-thead {
-    background-color: #F07300;
-    color: black;
-}
+
