@@ -12,7 +12,7 @@ html {
 h1 {
     color: var(--black);
     font-weight: 300;
-    font-size: 25px;
+    font-size: 18px;
     font-family:'Heebo', sans-serif;
     letter-spacing: 1px;
     text-align: center;
@@ -26,6 +26,9 @@ h2 {
 
 p {
     padding: 80px 160px 80px 160px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family:'Heebo', sans-serif;
     text-align: left;
 }
 
