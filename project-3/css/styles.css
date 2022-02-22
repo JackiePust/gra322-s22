@@ -12,11 +12,11 @@ html {
 h1 {
     color: var(--black);
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     font-family:'Heebo', sans-serif;
     letter-spacing: 1px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -26,19 +26,19 @@ h2 {
     font-family: 'Crete Round', serif;
 }
 
-p {
-    padding: 80px 160px 80px 160px;
-    font-weight: 300;
-    font-size: 18px;
-    font-family:'Heebo', sans-serif;
-    text-align: left;
-}
-
 .menu {
     background-color: #F07300;
     background-size: 45px;
     font-size: 90px;
     text-align: center;
+}
+
+p {
+    padding: 80px 160px 80px 160px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family:'Heebo', sans-serif;
+    text-align: left;
 }
 
 .story {
@@ -57,3 +57,11 @@ table {
     width: 30%;
 }
 
+th {
+    background-color: #F07300;
+    font-weight: 300;
+    font-size: 20px;
+    font-family:'Heebo', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
