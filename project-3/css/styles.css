@@ -19,8 +19,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Crete Round', serif;
+    font-weight: 300;
     font-size: 30px;
+    font-family: 'Crete Round', serif;
 }
 
 .story {
