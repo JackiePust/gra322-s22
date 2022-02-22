@@ -18,6 +18,15 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+}
+
+.story {
+    text-align: center;
+}
+
 table {
     background-color: white;
     border: 3px solid var(--orange);
