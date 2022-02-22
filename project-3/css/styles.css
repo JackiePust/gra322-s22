@@ -28,7 +28,6 @@ h2 {
   
 .menu {
     background-color: #F07300;
-    background-size: 45px;
     font-size: 90px;
     text-align: center;
 }
@@ -55,6 +54,7 @@ table {
     background-color: white;
     border: 3px solid var(--orange);
     font-family: 'Crete Round', serif;
+    height: 400px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 50px;
