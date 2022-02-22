@@ -25,14 +25,6 @@ h2 {
     font-size: 30px;
     font-family: 'Crete Round', serif;
 }
-
-@media (max-width: 550px) {
-    p { font-size: 10px; }
-  }
-  
-  @media (min-width: 551px) {
-    p { font-size: 20px; }
-  }
   
 .menu {
     background-color: #F07300;
@@ -47,6 +39,11 @@ p {
     font-size: 20px;
     font-family:'Heebo', sans-serif;
     text-align: left;
+}
+
+.schedule {
+    background-color:white;
+    padding: 30px 50px 30px 50px;
 }
 
 .story {
