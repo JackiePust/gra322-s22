@@ -26,6 +26,14 @@ h2 {
     font-family: 'Crete Round', serif;
 }
 
+@media (max-width: 550px) {
+    p { font-size: 10px; }
+  }
+  
+  @media (min-width: 551px) {
+    p { font-size: 20px; }
+  }
+  
 .menu {
     background-color: #F07300;
     background-size: 45px;
