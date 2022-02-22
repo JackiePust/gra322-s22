@@ -25,9 +25,10 @@ h2 {
 }
 
 .menu {
-    font-size: 90px;
     background-color: #F07300;
-    background-size: 60px;
+    background-size: 55px;
+    font-size: 90px;
+    text-align: center;
 }
 
 .story {
