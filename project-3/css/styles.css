@@ -24,6 +24,10 @@ h2 {
     font-family: 'Crete Round', serif;
 }
 
+.intro {
+    padding: 25px 50px 25px 50px;;
+}
+
 .menu {
     background-color: #F07300;
     background-size: 55px;
