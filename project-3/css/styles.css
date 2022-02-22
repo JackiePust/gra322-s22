@@ -24,11 +24,9 @@ h2 {
     font-family: 'Crete Round', serif;
 }
 
-h3 {
-    font-weight: 300;
+.menu {
     font-size: 90px;
-    font-family: 'Crete Round', serif;
-    background-color:var(--orange);
+    background-color: #F07300;
     background-size: 60px;
 }
 
