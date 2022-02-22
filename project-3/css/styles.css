@@ -25,18 +25,19 @@ h2 {
 }
 
 p {
-    padding: 100px 200px 100px 200px;
+    padding: 80px 160px 80px 160px;
     text-align: left;
 }
 
 .menu {
     background-color: #F07300;
-    background-size: 55px;
+    background-size: 45px;
     font-size: 90px;
     text-align: center;
 }
 
 .story {
+    padding-top: 80px;
     text-align: center;
 }
 
