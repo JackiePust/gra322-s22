@@ -1,3 +1,33 @@
-.current-page{
+.current-page {
     font-weight: bold;
+}
+
+.header {
+    background-color: #EBE6E0;
+    margin: 4rem 4rem;
+    padding: 4rem 2rem 4rem 2rem;
+    width: 30rem;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu {
+    background-color: #EBE6E0;
+    margin: 4rem 4rem;
+    padding: 4rem 2rem 4rem 2rem;
+    width: 30rem;
+}
+
+ul.images {
+    margin: 4rem 2rem 4rem 2rem;
+    padding: 4rem 2rem 4rem 2rem;
+    width: 1100px;  
+}
+  
+ul.images li{
+    display:inline-block;
+    width: 500px;
 }
