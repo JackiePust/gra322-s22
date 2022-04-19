@@ -4,8 +4,7 @@
 
 .header {
     background-color: #EBE6E0;
-    margin: 4rem 4rem;
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     width: 30rem;
 }
 
@@ -16,7 +15,6 @@ h2 {
 
 .menu {
     background-color: #EBE6E0;
-    margin: 4rem 4rem;
     padding: 4rem 2rem 4rem 2rem;
     width: 23rem;
 }
@@ -31,3 +29,31 @@ ul.images li{
     display:inline-block;
     width: 500px;
 }
+
+.column {
+    float: left;
+  }
+  .left {
+    width: 65%;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 0rem 2rem 0rem 2rem; 
+  }
+  .right {
+    width: 25%;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+  .one,.column-two {
+      width: 30%;
+  }
+  .three {
+      width: 30%;
+  }
+
+  footer {
+    position:absolute;
+    height: 4rem;
+    text-align: center;
+    padding: 3px;
+    background-color: #EBE6E0;
+    color: white;
+  }
