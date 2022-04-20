@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    width: 100vw; 
+    display: block;
+}
+
 .current-page {
     font-weight: bold;
 }
@@ -5,7 +11,8 @@
 .header {
     background-color: #EBE6E0;
     padding: 2rem 2rem 2rem 2rem;
-    width: 30rem;
+    /*width: 30rem;*/
+    max-width: 30rem;
 }
 
 h2 {
@@ -13,47 +20,107 @@ h2 {
     font-size: 20px;
 }
 
-.menu {
+.middle, .top {
+    display: flex;
+    width: 100vw;
+}
+
+.top h1, .top p {
+    padding: 20px;
+}
+
+.menu, .photo-info {
+    /*padding: 4rem 2rem 4rem 2rem;
+    width: 23rem;*/
+    min-width: 300px;
+}
+
+.photo-block {
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+}
+
+.photo-block > .photo-info {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu > ul {
     background-color: #EBE6E0;
-    padding: 4rem 2rem 4rem 2rem;
-    width: 23rem;
+}
+
+.menu > ul > li {
+    padding: 10px;
+    list-style: none;
+    color: #444444;
+}
+
+.menu > ul > li:hover {
+    background-color: #444444;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 ul.images {
-    margin: 4rem 2rem 4rem 2rem;
+    /*margin: 4rem 2rem 4rem 2rem;*/
     padding: 4rem 2rem 4rem 2rem;
-    width: 1100px;  
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul.images li img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
   
 ul.images li{
     display:inline-block;
     width: 500px;
+    padding: 20px;
 }
 
-.column {
-    float: left;
-  }
-  .left {
-    width: 65%;
-    padding: 2rem 1rem 2rem 1rem;
-    margin: 0rem 2rem 0rem 2rem; 
-  }
-  .right {
-    width: 25%;
-    padding: 2rem 1rem 2rem 1rem;
-  }
-  .one,.column-two {
-      width: 30%;
-  }
-  .three {
-      width: 30%;
-  }
-
   footer {
-    position:absolute;
-    height: 4rem;
     text-align: center;
     padding: 3px;
     background-color: #EBE6E0;
     color: white;
+  }
+
+  @media screen and (max-width: 950px) {
+    .middle {
+      flex-direction: column-reverse;
+      margin: 0;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .photo-block {
+        flex-direction: column;
+    }
+
+    .menu > ul {
+        padding: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 10px;
+    }
   }
