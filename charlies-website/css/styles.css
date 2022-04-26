@@ -66,6 +66,10 @@ table {
     text-align: center;
 }
 
+tr.head {
+    background-color: #F07300;
+}
+
 th {
     background-color: #F07300;
     font-size: 20px;
