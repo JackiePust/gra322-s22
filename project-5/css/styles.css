@@ -12,13 +12,14 @@ html, body {
     background-color: #EBE6E0;
     padding: 2rem 2rem 2rem 2rem;
     max-width: 30rem;
-    margin: 1rem;
+    margin: 4rem;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
 
 .middle, .top {
     display: flex;
@@ -27,6 +28,13 @@ h2 {
 
 .top h1, .top p {
     padding: 20px;
+}
+
+.menu {
+    margin: 4rem;
+}
+#mainmenu{
+    margin: 2rem !important;
 }
 
 .menu, .photo-info {
@@ -77,6 +85,27 @@ ul.images {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.photos{
+    padding: 4rem 2rem 4rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title{
+    padding: 4rem 2rem 4rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sbstitle{
+    padding: 4rem 2rem 4rem 2rem;
+    width: 100%;
+    display: flex;
+    margin: 2rem;
+}
+
+
 
 ul.images li img:hover {
     -webkit-filter: brightness(70%);
@@ -86,10 +115,22 @@ ul.images li img:hover {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
-  
+
+.Jackie {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 ul.images li{
     display:inline-block;
     width: 500px;
+    padding: 20px;
+}
+ul.bottomgrid li{
+    display: inline-block;
+    width: 250px;
     padding: 20px;
 }
 
@@ -120,4 +161,67 @@ ul.images li{
         padding-right: 100px;
         margin-top: 10px;
     }
+    
   }
+  @media(max-width: 592px){
+    .menu > ul > li{
+        padding: 10px 0px 10px 0px;
+    }
+    .menu > ul{
+        padding: 50px;
+    }
+    .sbstitle {
+        flex-wrap: wrap;
+    }
+}
+
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+
+ 
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+ }
+
+ @media (max-width: 1200px) {
+    #gallery {
+     -moz-column-count:    4;
+     -webkit-column-count: 4;
+     column-count:         4;
+    }
+ }
+
+ @media (max-width: 1000px) {
+    #gallery {
+     -moz-column-count:    3;
+     -webkit-column-count: 3;
+     column-count:         3;
+    }
+ }
+
+ @media (max-width: 800px) {
+    #gallery {
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
+    }
+ }
+
+ @media (max-width: 400px) {
+    #gallery {
+     -moz-column-count:    1;
+     -webkit-column-count: 1;
+     column-count:         1;
+    }
+ }
+ 
